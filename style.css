@@ -1,0 +1,36 @@
+.gradient {
+    /* fundo gradiente */
+    background-image: linear-gradient(to right,#853DF2,#04FB1D);
+    /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* a cor do texto deve estar como transparent */
+    color: transparent;
+  }
+
+.container {
+    width: 90%; /* Define a largura como 100% */
+    padding: 7px 60px; /* Define o preenchimento */
+    font-size: 12px; /* Define o tamanho da fonte */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    margin-bottom: 25px; /* Adiciona margem inferior */
+    margin-top: 5%
+  }
+
+.input_container input {
+    width: 60%; /* Define a largura como 100% */
+    padding: 7px 60px; /* Define o preenchimento */
+    font-size: 12px; /* Define o tamanho da fonte */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+    margin-bottom: 25px; /* Adiciona margem inferior */
+    margin-left: 0.5%;
+    margin-right: 0%;
+    text-align: left;
+}
+  
+.input_text {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
