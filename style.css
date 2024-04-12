@@ -6,20 +6,21 @@
     -webkit-background-clip: text;
     /* a cor do texto deve estar como transparent */
     color: transparent;
+    font-weight: bold;
   }
 
 .container {
     width: 90%; /* Define a largura como 100% */
-    padding: 7px 60px; /* Define o preenchimento */
+    padding: 10px 20px; /* Define o preenchimento */
     font-size: 12px; /* Define o tamanho da fonte */
-    border: 1px solid #ccc; /* Adiciona uma borda */
+    /* border: 1px solid #ccc; /*Adiciona uma borda */
     border-radius: 5px; /* Adiciona bordas arredondadas */
     margin-bottom: 25px; /* Adiciona margem inferior */
-    margin-top: 5%
+    margin-top: 1%
   }
 
-.input_container input {
-    width: 60%; /* Define a largura como 100% */
+.input_container input, select {
+    width:60%; /* Define a largura como 100% */
     padding: 7px 60px; /* Define o preenchimento */
     font-size: 12px; /* Define o tamanho da fonte */
     border: 1px solid #ccc; /* Adiciona uma borda */
@@ -29,8 +30,24 @@
     margin-right: 0%;
     text-align: left;
 }
+
+
+.input_container select {
+    width:361%;
+    margin-left: -129%;
+}
+
+
   
 .input_text {
     margin-left: 0.5%;
     margin-right: 0.5%;
+}
+
+.header_sobre{
+  margin-left: 40%;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+
 }
